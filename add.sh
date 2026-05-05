@@ -13,5 +13,5 @@ sum=$((num1+num2))
 
 echo "The result is :$sum"
 
-echo" End of calculation"
+echo "End of calculation"
 
