@@ -5,5 +5,6 @@
 cd /home/feera/scripts
 usr/bin/git add .
 usr/bin/git commit -m "Auto Push: $(date: '+%Y-%m-%d %H:%M:%S')"
-usr/bin/git push origin main
+usr/bin/git push origin feera
+
 

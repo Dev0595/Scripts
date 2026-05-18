@@ -154,3 +154,120 @@ Top 5 Processes
 logged in user
  
 feera
+ 
+ 
+Mon May 18 12:55:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 12:55:02 up  1:32,  1 user,  load average: 0.00, 0.03, 0.00
+Tasks: 210 total,   1 running, 209 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.0 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    437.2 free,   1162.0 used,   2599.8 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2752.8 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.1Gi       437Mi        39Mi       2.5Gi       2.7Gi
+Swap:          3.8Gi          0B       3.8Gi
+ 
+Disk Usage
+ 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  2.1M  390M   1% /run
+/dev/sda2        25G   13G   11G  56% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
+ 
+Top 5 Processes
+ 
+    PID    PPID CMD                         %CPU %MEM
+   6670    6669 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
+    698       1 /snap/snapd/current/usr/lib  6.1  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.2
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
+ 
+logged in user
+ 
+feera
+ 
+ 
+Mon May 18 01:00:02 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 13:00:02 up  1:37,  1 user,  load average: 0.05, 0.05, 0.01
+Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.6 us,  0.0 sy,  0.0 ni, 97.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    408.6 free,   1190.4 used,   2599.9 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2724.3 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       408Mi        39Mi       2.5Gi       2.7Gi
+Swap:          3.8Gi          0B       3.8Gi
+ 
+Disk Usage
+ 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  2.1M  390M   1% /run
+/dev/sda2        25G   13G   11G  56% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
+ 
+Top 5 Processes
+ 
+    PID    PPID CMD                         %CPU %MEM
+   6707    6706 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
+    698       1 /snap/snapd/current/usr/lib  5.8  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
+ 
+logged in user
+ 
+feera
+ 
+ 
+Mon May 18 01:05:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 13:05:01 up  1:42,  1 user,  load average: 0.06, 0.05, 0.01
+Tasks: 210 total,   1 running, 209 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    399.3 free,   1199.6 used,   2600.2 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2715.2 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       399Mi        39Mi       2.5Gi       2.7Gi
+Swap:          3.8Gi          0B       3.8Gi
+ 
+Disk Usage
+ 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  2.1M  390M   1% /run
+/dev/sda2        25G   13G   11G  56% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
+ 
+Top 5 Processes
+ 
+    PID    PPID CMD                         %CPU %MEM
+    698       1 /snap/snapd/current/usr/lib  5.5  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.3
+   6748    4769 vi autopush.sh               0.2  0.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
+ 
+logged in user
+ 
+feera
