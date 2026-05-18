@@ -271,3 +271,42 @@ Top 5 Processes
 logged in user
  
 feera
+ 
+ 
+Mon May 18 01:10:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 13:10:02 up  1:47,  1 user,  load average: 0.57, 0.22, 0.07
+Tasks: 214 total,   1 running, 213 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.3 sy,  0.0 ni, 95.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    400.9 free,   1197.5 used,   2600.6 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2717.3 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       400Mi        39Mi       2.5Gi       2.7Gi
+Swap:          3.8Gi          0B       3.8Gi
+ 
+Disk Usage
+ 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  2.1M  390M   1% /run
+/dev/sda2        25G   13G   11G  56% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
+ 
+Top 5 Processes
+ 
+    PID    PPID CMD                         %CPU %MEM
+    698       1 /snap/snapd/current/usr/lib  5.3  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
+   2374       1 /usr/bin/VBoxDRMClient       0.0  0.0
+ 
+logged in user
+ 
+feera
