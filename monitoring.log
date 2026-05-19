@@ -1,5 +1,19 @@
  
  
+Fri May 15 10:55:01 AM BST 2026
+ 
+%CPU Usage
+ 
+top - 10:55:01 up  1:14,  1 user,  load average: 0.01, 0.01, 0.00
+Tasks: 210 total,   1 running, 209 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.8 sy,  0.0 ni, 90.5 id,  0.0 wa,  0.0 hi,  4.8 si,  0.0 st 
+MiB Mem :   3914.8 total,    226.4 free,   1223.2 used,   2785.3 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2691.6 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       226Mi        39Mi       2.7Gi       2.6Gi
+Swap:          3.8Gi       4.0Ki       3.8Gi
 Mon May 18 02:09:01 PM BST 2026
  
 %CPU Usage
@@ -18,6 +32,11 @@ Swap:          3.8Gi          0B       3.8Gi
 Disk Usage
  
 Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.8M  390M   1% /run
+/dev/sda2        25G   13G   11G  56% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  128K  392M   1% /run/user/1000
 tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
@@ -28,6 +47,11 @@ tmpfs           392M  140K  392M   1% /run/user/1000
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+   4199    3970 /usr/bin/gnome-shell         2.9 10.3
+   5040    3970 /usr/libexec/gnome-terminal  0.4  1.6
+   7309       2 [kworker/u9:1-events_unboun  0.1  0.0
+   2440       1 /usr/bin/VBoxDRMClient       0.1  0.0
+   5011       2 [kworker/1:4-mm_percpu_wq]   0.0  0.0
     698       1 /snap/snapd/current/usr/lib  3.4  1.0
    3977    3753 /usr/bin/gnome-shell         1.0 10.5
    7240    4584 /usr/libexec/tracker-extrac  0.3  0.7
@@ -39,6 +63,19 @@ logged in user
 feera
  
  
+Mon May 18 12:40:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 12:40:01 up  1:17,  1 user,  load average: 0.00, 0.02, 0.00
+Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  3.6 sy,  0.0 ni, 89.3 id,  3.6 wa,  0.0 hi,  3.6 si,  0.0 st 
+MiB Mem :   3914.8 total,    446.7 free,   1159.1 used,   2592.9 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2755.6 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.1Gi       446Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:12:02 PM BST 2026
  
 %CPU Usage
@@ -61,12 +98,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  136K  392M   1% /run/user/1000
 tmpfs           392M  140K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+   6460    6459 ps -eo pid,ppid,cmd,%cpu,%m  200  0.1
+    698       1 /snap/snapd/current/usr/lib  6.5  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.2
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
    7286    7285 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
    7268    4769 find / -name monitoring     80.5  0.0
    7270    4584 /usr/libexec/tracker-extrac 14.2  0.7
@@ -78,6 +121,19 @@ logged in user
 feera
  
  
+Mon May 18 12:45:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 12:45:01 up  1:22,  1 user,  load average: 0.32, 0.07, 0.02
+Tasks: 211 total,   1 running, 210 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  4.5 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    446.5 free,   1158.5 used,   2593.9 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2756.3 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.1Gi       446Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:15:01 PM BST 2026
  
 %CPU Usage
@@ -100,12 +156,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  140K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+   6519    6518 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
+    698       1 /snap/snapd/current/usr/lib  6.1  1.0
+   6501     713 /usr/sbin/CRON -f -P         2.7  0.1
+   3977    3753 /usr/bin/gnome-shell         1.2 10.2
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
     698       1 /snap/snapd/current/usr/lib  3.3  1.0
    3977    3753 /usr/bin/gnome-shell         1.1 10.5
    4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
@@ -117,6 +179,19 @@ logged in user
 feera
  
  
+Mon May 18 12:50:03 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 12:50:03 up  1:27,  1 user,  load average: 0.09, 0.06, 0.02
+Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    440.2 free,   1164.6 used,   2594.1 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2750.2 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.1Gi       440Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:18:02 PM BST 2026
  
 %CPU Usage
@@ -139,12 +214,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  136K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+    698       1 /snap/snapd/current/usr/lib  5.8  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.2
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
+      1       0 /sbin/init splash            0.0  0.3
     698       1 /snap/snapd/current/usr/lib  3.2  1.0
    7363     713 /usr/sbin/CRON -f -P         1.5  0.1
    3977    3753 /usr/bin/gnome-shell         1.0 10.5
@@ -156,6 +237,19 @@ logged in user
 feera
  
  
+Mon May 18 12:55:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 12:55:02 up  1:32,  1 user,  load average: 0.00, 0.03, 0.00
+Tasks: 210 total,   1 running, 209 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.0 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    437.2 free,   1162.0 used,   2599.8 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2752.8 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.1Gi       437Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:21:01 PM BST 2026
  
 %CPU Usage
@@ -178,12 +272,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  144K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+   6670    6669 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
+    698       1 /snap/snapd/current/usr/lib  6.1  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.2
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
    7407    3977 gjs /usr/share/gnome-shell/  6.0  1.6
    7394    3753 /usr/bin/nautilus --gapplic  3.2  1.2
     698       1 /snap/snapd/current/usr/lib  3.2  1.0
@@ -195,6 +295,19 @@ logged in user
 feera
  
  
+Mon May 18 01:00:02 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 13:00:02 up  1:37,  1 user,  load average: 0.05, 0.05, 0.01
+Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.6 us,  0.0 sy,  0.0 ni, 97.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    408.6 free,   1190.4 used,   2599.9 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2724.3 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       408Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:24:02 PM BST 2026
  
 %CPU Usage
@@ -217,12 +330,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  144K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+   6707    6706 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
+    698       1 /snap/snapd/current/usr/lib  5.8  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
     698       1 /snap/snapd/current/usr/lib  3.1  1.0
    3977    3753 /usr/bin/gnome-shell         1.1 10.5
    7497    4584 /usr/libexec/tracker-extrac  0.5  0.7
@@ -234,6 +353,19 @@ logged in user
 feera
  
  
+Mon May 18 01:05:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 13:05:01 up  1:42,  1 user,  load average: 0.06, 0.05, 0.01
+Tasks: 210 total,   1 running, 209 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    399.3 free,   1199.6 used,   2600.2 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2715.2 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       399Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:27:01 PM BST 2026
  
 %CPU Usage
@@ -256,12 +388,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  140K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+    698       1 /snap/snapd/current/usr/lib  5.5  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.3
+   6748    4769 vi autopush.sh               0.2  0.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
     698       1 /snap/snapd/current/usr/lib  3.1  1.0
    3977    3753 /usr/bin/gnome-shell         1.1 10.5
    4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
@@ -273,6 +411,19 @@ logged in user
 feera
  
  
+Mon May 18 01:10:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 13:10:02 up  1:47,  1 user,  load average: 0.57, 0.22, 0.07
+Tasks: 214 total,   1 running, 213 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.3 sy,  0.0 ni, 95.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    400.9 free,   1197.5 used,   2600.6 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2717.3 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       400Mi        39Mi       2.5Gi       2.7Gi
 Mon May 18 02:30:01 PM BST 2026
  
 %CPU Usage
@@ -295,12 +446,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  140K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+    698       1 /snap/snapd/current/usr/lib  5.3  1.0
+   3977    3753 /usr/bin/gnome-shell         1.2 10.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+     10       2 [kworker/0:1-events]         0.1  0.0
+   2374       1 /usr/bin/VBoxDRMClient       0.0  0.0
     698       1 /snap/snapd/current/usr/lib  3.0  1.0
    3977    3753 /usr/bin/gnome-shell         1.1 10.5
    4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
@@ -312,6 +469,19 @@ logged in user
 feera
  
  
+Mon May 18 02:39:03 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 14:39:03 up  3:16,  1 user,  load average: 0.06, 0.04, 0.00
+Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    161.8 free,   1299.6 used,   2777.8 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2615.1 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.3Gi       161Mi        39Mi       2.7Gi       2.6Gi
 Mon May 18 02:33:01 PM BST 2026
  
 %CPU Usage
@@ -340,6 +510,11 @@ tmpfs           392M  136K  392M   1% /run/user/1000
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+   7790     713 /usr/sbin/CRON -f -P         3.8  0.1
+    698       1 /snap/snapd/current/usr/lib  2.9  1.0
+   3977    3753 /usr/bin/gnome-shell         1.1 10.5
+   7781    4769 vi autopush.sh               0.3  0.3
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
    7646    7645 ps -eo pid,ppid,cmd,%cpu,%m  100  0.1
     698       1 /snap/snapd/current/usr/lib  3.0  1.0
    3977    3753 /usr/bin/gnome-shell         1.1 10.5
@@ -351,6 +526,19 @@ logged in user
 feera
  
  
+Mon May 18 02:42:01 PM BST 2026
+ 
+%CPU Usage
+ 
+top - 14:42:01 up  3:19,  1 user,  load average: 0.00, 0.02, 0.00
+Tasks: 209 total,   1 running, 208 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3914.8 total,    165.4 free,   1295.9 used,   2777.9 buff/cache     
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   2618.9 avail Mem )
+%Memory Usage
+ 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.3Gi       165Mi        39Mi       2.7Gi       2.6Gi
 Mon May 18 02:36:01 PM BST 2026
  
 %CPU Usage
@@ -373,12 +561,18 @@ tmpfs           392M  2.1M  390M   1% /run
 /dev/sda2        25G   13G   11G  56% /
 tmpfs           2.0G     0  2.0G   0% /dev/shm
 tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
 tmpfs           392M  136K  392M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/feera/VBox_GAs_7.1.10
  
 Top 5 Processes
  
     PID    PPID CMD                         %CPU %MEM
+    698       1 /snap/snapd/current/usr/lib  2.8  1.0
+   3977    3753 /usr/bin/gnome-shell         1.1 10.5
+   4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
+   7665       2 [kworker/u9:3-flush-8:0]     0.0  0.0
+   2374       1 /usr/bin/VBoxDRMClient       0.0  0.0
     698       1 /snap/snapd/current/usr/lib  2.9  1.0
    3977    3753 /usr/bin/gnome-shell         1.1 10.5
    4760    3753 /usr/libexec/gnome-terminal  0.1  1.5
@@ -388,3 +582,5 @@ Top 5 Processes
 logged in user
  
 feera
+ 
+ 
